@@ -12,7 +12,7 @@ def stt():
     r = sr.Recognizer()
 
     with sr.Microphone() as mic:
-        print('press enter key to exit..')
+        
 
         try:
             print('you can speak now!\n for 5 seconds..')
